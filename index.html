@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DecimalHexBinConverter</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="ejercicio.css">
+</head>
+<body>
+    <div class="celda_principal">
+        <h2>CONVERSIÓN</h2>
+        <div class="celda">
+            <label for="dec">Decimal</label>
+            <input type="text" id="dec" pattern="[a-zA-Z0-9]+" placeholder="0-9">
+        </div>
+
+        <div class="celda">
+            <label for="bin">Binario</label>
+            <input type="text" id="bin" pattern="[a-zA-Z0-9]+" placeholder="0-1">
+        </div>
+
+        <div class="celda">
+            <label for="hex">Hexadecimal</label>
+            <input type="text" id="hex" pattern="[a-zA-Z0-9]+" placeholder="0-F">
+        </div>
+        <div class="cuartetos">
+            <p class="titulo_cuarteto">Binario por partes: </p> 
+            <p class="binario" id="binario"></p> 
+        </div>
+    </div>
+
+    <!-- <div class="celda_principal" id="ejercicio">
+        <h2>EJERCICIO</h2>
+        <div class="celda2">
+            <input type="radio" name="opcion" id="deci" value="deci" checked>
+            <label for="deci" class="opcion">DECIMAL</label>
+            <input type="radio" name="opcion" id="bina" value="bina">
+            <label for="bina" class="opcion">BINARIO</label>
+            <input type="radio" name="opcion" id="hexa" value="hexa">
+            <label for="hexa" class="opcion">HEXADECIMAL</label>
+        </div>
+        <button id="empezar">Empezar</button>
+    </div> -->
+
+</body>
+<script src="mani.js"></script>
+<script src="ejercicio.js"></script>
+</html>
