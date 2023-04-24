@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DecimalHexBinConverter</title>
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="ejercicio.css">
+    <link rel="stylesheet" href="./CSS/main.css">
+    <link rel="stylesheet" href="./CSS/ejercicio.css">
 </head>
 <body>
     <div class="celda_principal">
@@ -31,20 +31,29 @@
         </div>
     </div>
 
-    <!-- <div class="celda_principal" id="ejercicio">
+
+    <div class="celda_principal" id="ejercicio">
         <h2>EJERCICIO</h2>
-        <div class="celda2">
-            <input type="radio" name="opcion" id="deci" value="deci" checked>
-            <label for="deci" class="opcion">DECIMAL</label>
-            <input type="radio" name="opcion" id="bina" value="bina">
-            <label for="bina" class="opcion">BINARIO</label>
-            <input type="radio" name="opcion" id="hexa" value="hexa">
-            <label for="hexa" class="opcion">HEXADECIMAL</label>
+        <div class="celda">
+            <label for="Edec">Decimal</label>
+            <input type="text" id="Edec">
+            <input type="text" id="Rdec" readonly placeholder="Resultado">
         </div>
-        <button id="empezar">Empezar</button>
-    </div> -->
+        <div class="celda">
+            <label for="Ebi">Binario</label>
+            <input type="text" id="Ebi">
+            <input type="text" id="Rbi" readonly placeholder="Resultado">
+        </div>
+        <div class="celda">
+            <label for="Ehex">Hexadecimal</label>
+            <input type="text" id="Ehex">
+            <input type="text" id="Rhex" readonly placeholder="Resultado">
+        </div>
+        
+    </div>
+
 
 </body>
-<script src="mani.js"></script>
-<script src="ejercicio.js"></script>
+<script src="./JS/mani.js"></script>
+<script src="./JS/ejercicio.js" type="module"></script>
 </html>
